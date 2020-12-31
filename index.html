@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">-->
+    <link rel="stylesheet" href="./style.css">
+    <title>Uniform House</title>
+</head>
+
+<body>
+    
+
+
+    <div class="container-fluid">
+        <header>
+            <h1>UTTAM TAILOR</h1>
+        </header>
+    </div>
+
+    <form method="post" data-netlify="true">
+        <div class="form">
+        <div class="customer-details">
+            <p>Customer Details</p>
+            <div class="input-row">
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="customer_name" type="text" class="active">
+                        <label for="customer_name">Name of Customer</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="mobile_number" type="tel" class="validate">
+                        <label for="mobile_number">Mobile Number</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="shirt-measurements">
+            <h4>शर्ट मापे</h4>
+            <div class="row">
+                <div class="input-field col s6">
+                    <input id="shirt_height" type="number" class="">
+                    <label for="shirt_height">उंची</label>
+                </div>
+                <div class="input-field col s6">
+                    <input id="shirt_chest" type="number" class="">
+                    <label for="shirt_chest">छाती</label>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="input-field col s6">
+                    <input id="shirt_shoulder" type="number" class="">
+                    <label for="shirt_shoulder">शोल्डर</label>
+                </div>
+                <div class="input-field col s6">
+                    <input id="shirt_cuff" type="number" class="">
+                    <label for="shirt_cuff">भाई/कप</label>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="input-field col s6">
+                    <input id="shirt_sleeve" type="number" class="">
+                    <label for="shirt_sleeve">भाई/दंडघेर</label>
+                </div>
+                <div class="input-field col s6">
+                    <input id="shirt_collar" type="number" class="">
+                    <label for="shirt_collar">कॉलर</label>
+                </div>
+            </div>
+
+            <h6>फ्रंट</h6>
+            <div class="row">
+                <label class="col s6">
+                    <input class="with-gap" name="group_shirt_front" type="radio"  />
+                    <span>मॅनेला</span>
+                </label>
+                <label class="col s6">
+                    <input class="with-gap" name="group_shirt_front" type="radio" />
+                    <span>आळ</span>
+                </label>
+            </div>
+
+            <h6>Sleeve</h6>
+            <div class="row">
+                <label class="col s6">
+                    <input class="with-gap" name="group_shirt_sleeve_type" type="radio"  />
+                    <span>हाफ</span>
+                </label>
+                <label class="col s6">
+                    <input class="with-gap" name="group_shirt_sleeve_type" type="radio" />
+                    <span>फुल</span>
+                </label>
+            </div>
+
+            <!-- <div>
+                <input type="radio"id="हाफ" name="sleeve-type" value="हाफ">
+                <label for="हाफ">हाफ</label>
+
+                <input type="radio"id="फुल" name="sleeve-type" value="फुल">
+                <label for="फुल">फुल</label><br>
+            </div> -->
+        </div>
+
+
+        <div class="pant-measurements">
+            <h4>पॅन्ट मापे</h4>
+            <div class="row">
+                <div class="input-field col s6">
+                    <input id="pant_height" type="number" class="">
+                    <label for="pant_height">उंची: </label>
+                </div>
+                <div class="input-field col s6">
+                    <input id="pant_height" type="number" class="">
+                    <label for="pant_height">कंबर:</label>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="input-field col s6">
+                    <input id="pant_height" type="number" class="">
+                    <label for="pant_height">सीट: </label>
+                </div>
+                <div  class="input-field col s6">
+                    <input id="pant_height" type="number" class="">
+                    <label for="pant_height">बॉटम/गुडघा: </label>
+                </div>
+            </div>
+
+            <div  class="input-field col s6">
+                <input id="pant_height" type="number" class="">
+                <label for="pant_height">मांडी: </label>
+            </div>
+
+            <h6>प्लेट</h6>
+            <div class="row">
+                <label class="col s6">
+                    <input class="with-gap" name="group_pant_front" type="radio"  />
+                    <span>प्लेट पॅन्ट</span>
+                </label>
+                <label class="col s6">
+                    <input class="with-gap" name="group_pant_front" type="radio" />
+                    <span>बिगर प्लेट</span>
+                </label>
+            </div>
+
+                <h6>Sleeve</h6>
+                <div class="row">
+                    <label class="col s6">
+                        <input class="with-gap" name="group_pant_Sleeve_front" type="radio" />
+                        <span>साईड पॅन्ट</span>
+                    </label>
+                    <label class="col s6">
+                        <input class="with-gap" name="group_pant_Sleeve_front" type="radio" />
+                        <span>बिक्रॉस पॅन्ट</span>
+                    </label>
+                </div>
+            </div>
+
+        </div>
+
+        <input type="submit" value="Save" id="save_btn">
+    </form>
+    
+        
+
+
+
+        <script src="https://kit.fontawesome.com/c6153d298d.js"></script>
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script> -->
+
+</body>
+
+</html>

@@ -1,0 +1,106 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Kadwa&display=swap');*/
+
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Kadwa', 'serif';
+    background: url(./img/bg_masked_compressed.jpg)  no-repeat center center fixed  ;
+    /* background-color: #202020; */
+    background-size: cover;
+
+}
+
+header{
+    background-color: #2C2D31;
+    padding: 0.3em 0.2em;
+     color: gold;
+    text-align: center;
+    font-size: 2em;
+}
+
+label{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.form p{
+    font-size: 1.5em;
+    text-align: center;
+    color:#ffffff;
+}
+
+.form input{
+    font-size: 6em;
+    color:#ffffff;
+}
+
+.shirt-measurements h4{
+    font-size: 1.4em;
+    color: gold;
+    text-align: center;
+    columns: #202020;
+}
+
+.pant-measurements p{
+    font-size: 1.8em;
+    text-align: center;
+    color: #ffffff;
+}
+.pant-measurements h4{
+    font-size: 1.8em;
+    color: gold;
+    text-align: center;
+    columns: #202020;
+
+}
+.input-row{
+    padding: 0.4em;
+    margin: 1em;
+    border: 1px groove black;
+    border-radius: 10px;
+    font-size:1.2em;
+    color: white;
+    
+}
+.input-row div{
+    display: block;
+}
+
+.shirt-measurements{
+    padding: 0.4em;
+    margin: 1em;
+    border: 1px groove black;
+    border-radius: 10px;
+    font-size: 1.2em;
+    color: white;
+}
+
+.pant-measurements{
+    padding: 0.4em;
+    margin: 1em;
+    border: 1px groove black;
+    border-radius: 10px;
+    font-size:1.2em;
+    color: white;
+}
+label{
+    color: white;
+}
+
+
+#save_btn{
+    text-align: center;
+    color: #ffffff;
+    background-color: #202020;
+    margin: 1em auto;
+    display: block;
+    border: none;
+    padding: 1em 3em;
+    border-radius: 0.4em;
+}
+
+#save_btn:hover{
+    background-color: #fff;
+    color: #202020;
+}
